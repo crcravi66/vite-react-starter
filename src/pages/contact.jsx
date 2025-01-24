@@ -1,4 +1,4 @@
-import HomeLayout from '@/layouts/Homelayout';
+import HomeLayout from '@/layouts/HomeLayout';
 
 export default function Contact() {
   return (

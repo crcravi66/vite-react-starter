@@ -1,5 +1,5 @@
 import reactLogo from '@/assets/react.svg';
-import HomeLayout from '@/layouts/Homelayout';
+import HomeLayout from '@/layouts/HomeLayout';
 import { useState } from 'react';
 import '@/App.css';
 import viteLogo from '/vite.svg';
