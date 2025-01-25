@@ -1,12 +1,13 @@
 import NProgress from 'nprogress';
-
 import { useEffect } from 'react';
+
 import { useFetchers, useNavigation } from 'react-router';
 
 export function useNProgress() {
   const navigation = useNavigation();
 
   const fetchers = useFetchers();
+
   useEffect(() => {
     NProgress.start();
 

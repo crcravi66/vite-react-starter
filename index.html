@@ -8,6 +8,26 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- <script type="module">
+      ;(function () {
+        // debugger
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        let setting
+        if (localStorage.getItem('usehooks-ts-dark-mode')) {
+          if (localStorage.getItem('usehooks-ts-dark-mode') === 'true') {
+            setting = 'dark'
+          } else {
+            setting = 'light'
+          }
+        } else {
+          setting = 'auto'
+        }
+
+        if (setting === 'dark' || (prefersDark && setting !== 'light')) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script> -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

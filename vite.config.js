@@ -16,8 +16,7 @@ export default defineConfig({
         'react',
         'react-router',
         { 'usehooks-ts': ['useCounter', 'useDarkMode'] }
-      ],
-      dts: 'src/auto-imports.d.ts'
+      ]
     })
   ],
   resolve: {

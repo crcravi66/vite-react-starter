@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root.dark {
+  color: #f9f9f9;
+  background-color: #121212;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -27,6 +32,9 @@ a[aria-current='page'] {
   color: #050505;
 }
 
+:root.dark a.active {
+  color: #f9f9f9;
+}
 body {
   margin: 0;
   display: flex;
@@ -66,6 +74,22 @@ button:focus-visible {
 
 .gap-2 {
   gap: 0.5em;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 @media (prefers-color-scheme: light) {

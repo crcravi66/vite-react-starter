@@ -1,15 +1,18 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { useNProgress } from '@/hooks/useNprogress';
+import { memo } from 'react';
 
-export default function HomeLayout(props) {
+const HomeLayout = memo(({ children }) => {
   useNProgress();
 
   return (
     <>
       <Header />
-      {props.children}
+      {children}
       <Footer />
     </>
   );
-}
+});
+
+export default HomeLayout;
