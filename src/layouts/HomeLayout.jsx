@@ -5,7 +5,6 @@ import { memo } from 'react';
 
 const HomeLayout = memo(({ children }) => {
   useNProgress();
-
   return (
     <>
       <Header />
